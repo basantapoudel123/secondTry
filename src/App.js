@@ -1,10 +1,17 @@
 import './App.css';
-import LifecycleA from './LifecycleA';
+import ParentComp from './ParentComp';
+// import FragmentDemo from './FragmentDemo';
+// import PureComp from './PureComp';
+// import Table from './Table';
+// import LifecycleA from './LifecycleA';
 
 function App() {
   return (
     <div className="App">
-      <LifecycleA />
+      {/* <LifecycleA />
+      <FragmentDemo />
+      <Table /> */}
+      <ParentComp />
     </div>
   );
 }
