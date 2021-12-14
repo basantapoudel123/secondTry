@@ -7,6 +7,6 @@ function MemoComp({name}) {
             {name}
         </div>
     )
-}
+} 
 
 export default React.memo(MemoComp)
